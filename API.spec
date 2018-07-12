@@ -300,7 +300,7 @@ paddle.fluid.layers.ParallelDo.get_parameters ArgSpec(args=['self'], varargs=Non
 paddle.fluid.layers.ParallelDo.parent_block ArgSpec(args=['self'], varargs=None, keywords=None, defaults=None)
 paddle.fluid.layers.ParallelDo.read_input ArgSpec(args=['self', 'var'], varargs=None, keywords=None, defaults=None)
 paddle.fluid.layers.ParallelDo.write_output ArgSpec(args=['self', 'var'], varargs=None, keywords=None, defaults=None)
-paddle.fluid.layers.Print ArgSpec(args=['input', 'first_n', 'message', 'summarize', 'devices', 'print_tensor_name', 'print_tensor_type', 'print_tensor_shape', 'print_tensor_lod', 'print_phase'], varargs=None, keywords=None, defaults=(-1, None, -1, None, True, True, True, True, 'both'))
+paddle.fluid.layers.Print ArgSpec(args=['input', 'first_n', 'message', 'summarize', 'print_tensor_name', 'print_tensor_type', 'print_tensor_shape', 'print_tensor_lod', 'print_phase'], varargs=None, keywords=None, defaults=(-1, None, -1, None, True, True, True, True, 'both'))
 paddle.fluid.layers.is_empty ArgSpec(args=['x', 'cond'], varargs=None, keywords='ignored', defaults=(None,))
 paddle.fluid.layers.mean ArgSpec(args=[], varargs='args', keywords='kwargs', defaults=None)
 paddle.fluid.layers.mul ArgSpec(args=[], varargs='args', keywords='kwargs', defaults=None)
